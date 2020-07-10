@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const CounterApp = ({ value = 1 }) => {
 
-	const [counter, setCounter] = useState(0);
+	const [counter, setCounter] = useState(value);
 
 	const handlePlus = () => {
 		// Forma tradicional
